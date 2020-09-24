@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+body {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #94accc;
+  display: block;
+  border-radius: 20px;
+  font-family: Architects Daughter;
+  font-size: 1.2em;
+  
+}
+
+header {
+  padding: .01em;
+  border-radius: 10px 10px 0px 0px;
+  background-color: #3e69a5;
+}
+footer {
+  border-radius: 0px 0px 10px 10px;
+  background-color: #3e69a5;
+  padding: 0.5em;
+  text-align: center;
+}
+
+main {
+  background-color: #f7f7f7;
+  padding: 1em;
+}
+
+.pictureMe {
+    max-width: 160px;
+    border-radius: 10px;
+    float: right;
+    margin: 1.5em;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+}
+
+.lastUpdated {
+  color: gold;
+  font-size: 0.8em;
+}
