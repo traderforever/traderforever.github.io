@@ -1,0 +1,57 @@
+body {
+	font-size: 16px;
+	font-family: "Quicksand", "Karla", sans-serif;
+}
+header {
+  max-width: 800px;
+  margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr;
+  text-align: center;
+  background-color: #3e69a5;
+  
+}
+footer {
+  max-width: 800px;
+  margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr;
+  text-align: center;
+  background-color: #3e69a5;
+}
+
+p {
+    font-size: 1rem;
+}
+.company {
+    font-size: 2em;
+    margin: 0px;
+
+}
+.webAddress{
+    font-size: 1.1rem;
+}
+.lastUpdated {
+  color: gold;
+  font-size: 0.8em;
+}
+
+/* below will change based on screen size and other css files meqia queries */
+main {
+	max-width: 767px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 0.8rem;
+}
+
+main section h2 {
+	color: navy;
+}
+
+main section {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0 1rem;
+	background-color: #94accc;
+}
