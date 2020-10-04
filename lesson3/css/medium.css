@@ -1,0 +1,38 @@
+@media only screen and (min-width: 37.5em) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    main section:nth-child(2) {
+        display: block;
+    }
+
+    main section:nth-child(3) {
+        grid-column: span 2;
+    }
+
+    main section picture {
+        display: block;
+    }
+    body {
+		font-size: 16px;
+	}
+
+    main section picture img {
+        width: 100%;
+        height: auto;
+        border: 1px solid #bbb;
+    }
+
+    main section picture img {
+        width: 100%;
+        height: auto;
+        border: 1px solid #bbb;
+    }
+	nav ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+        }
+
+
+}
