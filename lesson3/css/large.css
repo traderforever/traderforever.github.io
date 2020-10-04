@@ -14,9 +14,12 @@
 	body {
 		font-size: 18px;
 	}
-	.columns {
+	.columnsa {
 		display: flex;
 	  }
+	.columnsindex {
+		display: grid;
+	}
 	.audience {
 		margin: 10px;
 		padding: 10px;
