@@ -1,4 +1,5 @@
 @media only screen and (min-width: 60em) {
+
     /*Header*/
     .header-headings h1 {
         font-size: 2.2em;
@@ -13,13 +14,19 @@
         font-size: 1em;
     }
 
+    li.active a h2 {
+        color: gold;
+    }
+
     /*Body*/
     main {
         max-width: 900px;
     }
+
     h3 {
         font-size: 1.4em;
     }
+
     .main-content {
         font-size: 1.1em;
     }

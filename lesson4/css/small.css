@@ -84,18 +84,15 @@ nav ul li a {
     text-decoration: none;
     color: black;
 }
-
+li.active a h2 {
+    color: gold;
+}
 nav ul :hover {
     color: white;
     background-color: #3e69a5;
 }
-li.active a h2 {
-    color: gold;
-}
 
-nav ul li a:hover {
 
-}
 
 
 .clearfix:after {
