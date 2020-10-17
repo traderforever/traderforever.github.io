@@ -1,4 +1,4 @@
-@media only screen and (min-width: 46em) {
+@media only screen and (min-width: 30em) {
     /*Header*/
     header {
         text-align: center;
@@ -29,7 +29,7 @@
     }
 
     li.active a h2 {
-        color: black;
+        color: gold;
     }
     
     nav div button {
@@ -40,7 +40,11 @@
         display: flex;
     }
 
+    
     /*Body*/
+    main {
+        max-width: 930px;
+    }
    
 
     h3 {
@@ -56,4 +60,25 @@
 
         font-size: 1em;
     }
+/*HERO*/
+.fiveDayFlex li {
+
+    padding: 10px;
+}
+.map-box {
+    flex-direction: row;
+}
+
+.map-box img {
+    order: 1;
+}
+.social {
+    display: flex;
+}
+.map img {
+    max-width: 50%;
+}
+.social li {
+    padding: 0.15em;
+}
 }

@@ -64,6 +64,7 @@ nav ul.hide {
 }
 nav ul li h2{
     font-size: 1.2em;
+
 }
 nav ul {
     display: flex;
@@ -84,18 +85,15 @@ nav ul li a {
     text-decoration: none;
     color: black;
 }
-
+li.active a h2 {
+    color: gold;
+}
 nav ul :hover {
     color: white;
     background-color: #3e69a5;
 }
-li.active a h2 {
-    color: gold;
-}
 
-nav ul li a:hover {
 
-}
 
 
 .clearfix:after {
@@ -117,10 +115,9 @@ main {
 }
 
 h3 {
-    color: black;
-    background-color: #94accc;
+
     font: 1.4em;
-    text-align: center;
+    text-align: left;
     border-radius: 5px;
     padding: 5px;
     margin: 0px auto;
@@ -147,5 +144,86 @@ footer {
     color: gold;
     font-size: 0.8em;
   }
+/*LESSON 5*/
 
 
+.heroContainer {
+    margin: 10px auto;
+    position: relative;
+    max-width: 100%;
+    height: auto;
+  }
+  .hero-img {
+    display: block;
+    margin: 10px auto;
+    background-color: silver;
+    border: 1px solid black;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .weatherSum {
+    position: static;
+    background-color: white;
+  }
+  .weatherSum h3 {
+    text-align: left;
+    overflow:visible;
+  }
+
+.fiveDayFlex, .contact, .social {
+    list-style: none;
+}
+
+.fiveDayFlex {
+    display: flex;
+    text-align: center;
+    padding: 0;
+    justify-content: center;
+    padding-bottom: 1em;
+}
+
+.fiveDayFlex li {
+    margin: 0.25em;
+    border: 2px solid #94accc;
+
+}
+
+article img {
+    float: none;
+    border: 4px solid #94accc;
+    max-width: 100%;
+}
+
+main h2 {
+    background-color: #3e69a5;
+    padding: .75rem;
+}
+.map img {
+    max-width: 100%;
+}
+.map-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.map-box > img {
+    order: 2;
+    align-self: center;
+    margin: 1em 2em 2em;    
+}
+
+.map-box div {
+    order: 1;
+}
+.social {
+    display: none;
+}
+
+aside {
+    display: none;
+    color: black;
+    background-image: radial-gradient(yellow, gold);
+    padding: 0.25em;
+    font-size: 1.25em;
+}
