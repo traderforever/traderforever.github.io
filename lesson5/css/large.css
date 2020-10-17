@@ -40,11 +40,11 @@
 /*HERO*/
 .weatherSum {
     position: absolute;
-    Top: 103px;
+    Top: 90px;
     background-color: rgba(255, 255, 255, 0.7);
     padding: 0.5rem;
     box-shadow: 0 0 20px;
-    width: 98.3%;
+    width: 98.5%;
 
   }
   .fiveDayFlex li {
