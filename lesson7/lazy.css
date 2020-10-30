@@ -1,3 +1,9 @@
+body {
+    max-width: 700px;
+    margin: auto;
+
+}
+
 .bodygrid {
     display: grid;
     grid-column: 1fr;
