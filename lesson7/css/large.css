@@ -19,9 +19,7 @@
     }
 
     /*Body*/
-    main {
-        max-width: 900px;
-    }
+ 
 
     h3 {
         font-size: 1.4em;
@@ -59,7 +57,17 @@
 article h4 {
     margin: -20px 0px 0px 20px;
 }
-.map img {
-    max-width: 50%;
+img {
+    width: 275px;
 }
+
+
+.sectiongrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+
 }
+
+}
+

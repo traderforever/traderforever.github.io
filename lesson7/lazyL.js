@@ -22,8 +22,8 @@ function preloadImage(img) {
 
 
 const imgOptions = {
-    threshold: 1,
-    rootMargin: "0px 0px 0px 0px"
+    threshold: .5,
+    rootMargin: "10px 10px 10px 10px"
 };
 const imgObserver = new IntersectionObserver((entries, imgObserver) => {
     entries.forEach(entry => {
@@ -40,6 +40,6 @@ images.forEach(image => {
     imgObserver.observe(image);
 });
 
-var moveButton = document.querySelector('.move-button');
-var items = document.querySelectorAll('.grid-a .grid-item');
+/*var moveButton = document.querySelector('.move-button');
+var items = document.querySelectorAll('.grid-a .grid-item');*/
 

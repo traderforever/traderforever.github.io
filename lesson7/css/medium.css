@@ -1,4 +1,4 @@
-@media only screen and (min-width: 30em) {
+@media only screen and (min-width: 600px) {
     /*Header*/
     header {
         text-align: center;
@@ -81,4 +81,12 @@
 .social li {
     padding: 0.15em;
 }
+
+
+.sectiongrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
+}
+
+
