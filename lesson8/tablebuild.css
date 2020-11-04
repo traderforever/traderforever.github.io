@@ -1,6 +1,17 @@
 body {
     text-align: -webkit-center;
 }
+caption {
+    font-family: 'Ubuntu';
+    font-size: 2.4rem;
+    padding: 13px 0px;
+    background-color: #7fb9c2;  
+    font-weight: bold;
+}
+.highlight {
+    background-color: #628ca6;
+    color: white;
+}
 
 table {
 
@@ -9,6 +20,10 @@ table {
     border-collapse: collapse;
     width: 400px;
     background-color: #e7ffed;
+    font-size: 1.2rem;
+
+  }
+  table, caption {
     box-shadow: 8px 8px 15px #628ca6;
   }
   
@@ -24,12 +39,9 @@ table {
     padding: 8px;
   }
   
-  th {
-    background-color: #7fb9c2;
-    font-size: 2rem;
-  }
-  .subheading {
-      background-color: #628ca6;
+
+thead th{
+    background-color: #628ca6;
     color: white;
-    font-size: 20px;
-  }
+    font-size: 1.5rem;
+}
