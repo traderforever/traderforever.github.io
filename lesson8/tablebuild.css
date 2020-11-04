@@ -1,0 +1,35 @@
+body {
+    text-align: -webkit-center;
+}
+
+table {
+
+    margin: 25px 0;
+    font-family: Ubuntu, sans-serif;
+    border-collapse: collapse;
+    width: 400px;
+    background-color: #e7ffed;
+    box-shadow: 8px 8px 15px #628ca6;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #e7f0ed;
+  }
+  
+  
+  
+  td, th {
+    border: 1.5px solid #bbbbbb;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #7fb9c2;
+    font-size: 2rem;
+  }
+  .subheading {
+      background-color: #628ca6;
+    color: white;
+    font-size: 20px;
+  }
