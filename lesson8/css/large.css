@@ -13,6 +13,9 @@
     form.label.sbs {
         padding: .4rem 0;
     }
+    form label.top input {
+        max-width: 50rem;
+    }
     /*Nav*/
     nav ul {
         font-size: 1em;
