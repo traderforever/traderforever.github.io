@@ -200,6 +200,7 @@ form input.submitBtn {
     margin: 0 0 2rem 2%;
     width: 96%;
     max-width: 20rem;
+    font-weight: bold;
 }
 
 form label.top input:required {
