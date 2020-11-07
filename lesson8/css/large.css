@@ -9,6 +9,10 @@
         font-size: 1.2em;
     }
 
+    /*Main*/
+    form.label.sbs {
+        padding: .4rem 0;
+    }
     /*Nav*/
     nav ul {
         font-size: 1em;
