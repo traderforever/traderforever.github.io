@@ -10,7 +10,10 @@
     .header-headings div {
         font-size: 1.1em;
     }
-
+    /*FOrm*/
+    form label.top1 select {
+        max-width: 21.6rem;
+    }
     /*Nav*/
     
     nav ul {

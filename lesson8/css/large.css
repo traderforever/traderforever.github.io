@@ -16,6 +16,9 @@
     form label.top input {
         max-width: 50rem;
     }
+    form label.top1 select {
+        max-width: 51.6rem;
+    }
     /*Nav*/
     nav ul {
         font-size: 1em;

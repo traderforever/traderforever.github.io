@@ -204,13 +204,18 @@ form input.submitBtn {
 }
 
 form label.top input:required {
-    border-left: red solid 6px;
+    border-bottom: red solid 3px;
 }
 
 form label.top input:required:valid {
-    border-left: green solid 6px;
+    border-bottom: green solid 3px;
 }
 
+textarea {
+    margin: 1px 0px 0px 0px;
+    width: 100%;
+    max-width: 98%;
+}
 
 /*Footer*/
 footer {
