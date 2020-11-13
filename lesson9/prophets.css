@@ -1,0 +1,90 @@
+/*--Header--*/
+h1 {
+    font-family: "Architects Daughter";
+    text-align: center;
+    color: #3e69a5;
+
+}
+h2 {
+    font-family: "Architects Daughter";
+    text-align: center;
+    color: black;
+    margin: 0.5rem auto;
+}
+/*--Main--*/
+body {
+    font-family: "Quicksand", "Karla", sans-serif;
+}
+p {
+    font-size: 1.1rem;
+    margin: 0.2rem auto;
+    color: white;
+}
+main{
+    width: 95%;
+    margin: auto;
+}
+div.cards {
+    padding: 1em;
+    margin: auto;
+    display: block;
+    width: fit-content;
+    text-align: center;
+    border: 1px solid black;
+    background-color: #94accc;
+    box-shadow: 0 0 10px 5px #ccc;
+    
+}
+.card {
+    border: 1px solid black;
+    padding: 1em;
+    margin: 1em auto;
+    background-color:  #3e69a5;
+}
+img {
+    margin: auto;
+
+    max-height: 335.25px;
+    max-width: 100%;
+}
+
+@media only screen and (min-width: 32.5em) {
+    div.cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: .35rem;
+
+    }
+    .card{
+        margin: 0 auto;
+    }
+    img {
+        margin: auto;
+        max-height: 321.7px;
+        max-width: 261.25px;
+
+
+    }
+}
+@media only screen and (min-width: 70em) {
+    div.cards{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    img {
+        margin: auto;
+        max-height: 75%;
+        max-width: 75%;
+    }
+    h2 {
+    font-size: 1.4rem;
+    }
+}
+/*---------------------Footer------------------*/
+footer {
+    background-color: lightslategray;
+    text-align: center;
+    padding: 1em;
+    width: 95%;
+    margin: auto;
+}
