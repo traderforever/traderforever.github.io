@@ -43,7 +43,6 @@ div.cards {
 }
 img {
     margin: auto;
-
     max-height: 335.25px;
     max-width: 100%;
 }
@@ -53,19 +52,18 @@ img {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: .35rem;
-
     }
     .card{
         margin: 0 auto;
+        max-width: 251px;
     }
     img {
         margin: auto;
         max-height: 321.7px;
         max-width: 261.25px;
-
-
     }
 }
+
 @media only screen and (min-width: 70em) {
     div.cards{
         display: grid;
@@ -73,14 +71,14 @@ img {
     }
     img {
         margin: auto;
-        max-height: 75%;
-        max-width: 75%;
+        max-height: 283px;
+        max-width: 230px;
     }
     h2 {
     font-size: 1.4rem;
     }
 }
-/*---------------------Footer------------------*/
+/*--Footer--*/
 footer {
     background-color: lightslategray;
     text-align: center;
