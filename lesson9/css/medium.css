@@ -68,8 +68,10 @@
 
     padding: 10px;
 }
-.map-box {
-    flex-direction: row;
+.map-box img{
+    max-width: 100%;
+    margin: 2% 2%;
+
 }
 
 .map-box img {
@@ -77,9 +79,10 @@
 }
 .social {
     display: flex;
+
 }
-.map img {
-    max-width: 50%;
+div.map-box {
+    max-width: 100%;
 }
 .social li {
     padding: 0.15em;
@@ -90,6 +93,119 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+/*Week9*/
+
+.hero-img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    object-position: 0% 88%;
+}
+div.wkcard {
+    width: auto;
+}
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px auto;
+    max-width: 70%;
 }
 
+div.wk9card-cards section{
+    height: 20rem;
+}
+section:nth-child(even) div {
+    grid-column: 2;
+}
+section:nth-child(even) p {
+    grid-column: 2;
+}
+section:nth-child(even) h2 {
+    grid-column: 2;
+    margin-bottom: .5rem;
+}
+section:nth-child(even) img {
+    grid-column: 1;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    justify-self: center;
+    align-self: center;
+
+}
+section:nth-child(odd) h2 {
+    margin-bottom: .5rem;
+}
+section:nth-child(odd) div, p, h2 {
+    grid-column: 1;
+}
+section:nth-child(odd) img {
+    grid-column: 2;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    justify-self: center;
+    align-self: center;
+
+}
+
+.wk9card {
+    text-align: -webkit-center;
+}
+
+section h2 {
+    margin: 0 auto;
+    text-align: center;
+}
+section div {
+    margin: 0 auto;
+    text-align: center; 
+}
+section img {
+    padding: 10px;
+}
+
+
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    line-height: 2rem;
+    padding: 20px;
+}
+article h2 {
+    grid-column-end: -1;
+}
+
+img.shakes {
+    grid-column-start: 1;
+}
+article p {
+    grid-column-start: 2;
+}
+.map {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+div.map h2 {
+    grid-column-end: -1;
+}
+map img {
+    grid-column-start: 1;
+}
+map h3 {
+    grid-column-start: 2;
+}
+
+
+.social img {
+    max-width: 50%;
+}
+div h3 {
+    margin: 2% 9%;
+}
+.map div table img {
+    margin: auto 31%;
+}
+
+}
 

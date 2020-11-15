@@ -1,4 +1,4 @@
-@media only screen and (min-width: 943px) {
+@media only screen and (min-width: 900px) {
 
     /*Header*/
     .header-headings h1 {
@@ -64,12 +64,13 @@
     max-width: 40%;
     margin: 1.25rem;
 }
+
 article h4 {
     margin: -20px 0px 0px 20px;
 }
-img {
+/*img {
     width: 275px;
-}
+}*/
 
 
 .sectiongrid {
@@ -79,5 +80,51 @@ img {
 
 }
 
+
+
+/*--Week9--*/
+
+.wk9 {
+    display: grid;
+}
+.wk9card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+section {
+    display: block;
+    margin: 8px auto;
+ max-width: 100%;
 }
 
+section:nth-child(even) {
+    margin-left: 0;
+    margin-right: 0;
+}
+section:nth-child(1) img {
+    padding: 1.5rem 0 1.5rem 0;
+}
+section:nth-child(2) img {
+    padding: 1.5rem 0 1.5rem 0;}
+section:nth-child(3) img {
+    padding: 1.5rem 0 1.5rem 0;}
+
+main section {
+    margin: 0px
+    
+}
+
+section h2 {
+    margin: 0 auto;
+    text-align: center;
+}
+section div {
+    margin: 0 auto;
+    text-align: center; 
+}
+section img {
+    max-width:100%;
+}
+
+}
