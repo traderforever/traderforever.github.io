@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initiak-scale=1">
+    <meta name="description" content=" WDD 230 Assignment Preston Page by Adam Smith.">
+    <link rel="shortcut icon" href="images/icon-sun.ico">
+    <link href="../CSS/normalize.css" rel="stylesheet">
+
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <!-- <link href="lazy.css" rel="stylesheet"> -->
+
+    <title>Adam Smith Week 10 - Weather Forecast</title>
+</head>
+
+<body>
+    <aside class="fridayBanner">
+        <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+    </aside>
+    <header>
+        <picture>
+            <source media="(max-width: 400px)" srcset="images/IconWeather50.png">
+            <img src="images/IconWeather.png" alt="All Seeing Eye">
+        </picture>
+        <section class="header-headings">
+            <h1>Weather Revelations</h1>
+            <div class=motto>Where your forecast never faileth</div>
+        </section>
+    </header>
+
+    <nav class="clearfix">
+        <div class="button-sec">
+            <button onclick="toggleMenu()">&#9776;</button>
+        </div>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">
+                    <h2>Home</h2>
+                </a></li>
+            <li class="active"><a href="#">
+                    <h2>Preston</h2>
+                </a></li>
+            <li><a href="#">
+                    <h2>Soda Springs</h2>
+                </a></li>
+            <li><a href="#">
+                    <h2>Fish Haven</h2>
+                </a></li>
+            <li><a href="#">
+                    <h2>Storm Center</h2>
+                </a></li>
+            <li><a href="#">
+                    <h2>Gallery</h2>
+                </a></li>
+        </ul>
+    </nav>
+    
+    
+<!-- CONTENT HERE -->
+<main>
+    <h2 class="mainheader">Idaho</h2>
+    <div class="heroContainer">
+        <picture>
+            <!-- <source media="(max-width: 400px)" srcset="images/heroSeasons400.jpg"> 
+            <source media="(max-width: 600px)" srcset="images/heroSeasons600.jpg">  -->
+            <img class="hero-img" src="images/Idaho-Hero.jpg" alt="herobanner"> 
+        </picture>
+        <section class="weatherSum">
+            <h3 class="bannerSize">Temperature: <span id="tempCurrent"></span>°F, with <span id="curWeather"></span> -
+                 Humidity: <span id="humid"></span>% - Wind Speed <span id="wS"></span>mph - Wind Chill <span id="windCh"></span></h3>
+            <!-- e current condition description,
+the high or current (or both) temperature(s) in Fahrenheit,
+the humidity,
+the wind speed, and
+should still calculate and display the wind chill factor. -->
+        </section>
+    </div>
+    <div class="justify-center">
+        <h2>Five Day Forecast</h2>
+        <ul class="fiveDayFlex">
+            <li>
+                <p><span id="dayofweek1"></span></p>
+                <span><img src="" alt="" id="imagesrc1"></span>
+                <p><span id="forecast1"></span>&deg;F</p>
+            </li>
+            <li>
+                <p><span id="dayofweek2"></span></p>
+                <span><img src="" alt="" id="imagesrc2"></span>
+                <p><span id="forecast2"></span>&deg;F</p>
+            </li>
+            <li>
+                <p><span id="dayofweek3"></span></p>
+                <span><img src="" alt="" id="imagesrc3"></span>
+                <p><span id="forecast3"></span>&deg;F</p>
+            </li>
+            <li>
+                <p><span id="dayofweek4"></span></p>
+                <span><img src="" alt="" id="imagesrc4"></span>
+                <p><span id="forecast4"></span>&deg;F</p>
+            </li>
+            <li>
+                <p><span id="dayofweek5"></span></p>
+                <span><img src="" alt="" id="imagesrc5"></span>
+                <p><span id="forecast5"></span>&deg;F</p>
+            </li>
+        </ul>
+    </div>
+    <!-- <div>
+        <h2>Five Day Forecast</h2>
+        <div class="fiveDay">
+        <p><span id="dayofweek1"></span> : <span ></span> <img src="" alt="" id="imagesrc1"> <span id="forecast1"></span>&deg;F</p>
+        <p><span id="dayofweek2"></span> : <span ></span> <img src="" alt="" id="imagesrc2"> <span id="forecast2"></span>&deg;F</p>
+        <p><span id="dayofweek3"></span> : <span ></span> <img src="" alt="" id="imagesrc3"> <span id="forecast3"></span>&deg;F</p>
+        <p><span id="dayofweek4"></span> : <span ></span> <img src="" alt="" id="imagesrc4"> <span id="forecast4"></span>&deg;F</p>
+        <p><span id="dayofweek5"></span> : <span ></span> <img src="" alt="" id="imagesrc5"> <span id="forecast5"></span>&deg;F</p>
+    </div> -->
+        
+    </div>
+
+
+
+    <article>
+        <h2>Your one stop shake and weather support channel</h2>
+        <img class="shakes" src="images/shake.jpg" alt="Raspberry Milkshake">
+            <p>You can't claim you have been to Idaho if you haven't had a Famous raspberry milkshake at Bear Lake.  With 5 stops all competing to please your taste buds.  Don't be swayed from one to another, try them all and determine who is the best maker of milkshakes for yourself.  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, vitae? Veritatis reiciendis totam voluptatum eveniet ipsum corporis pariatur nesciunt a.</p>
+    
+    
+    </article>
+    <div class="map">
+        <h2>Contact Information</h2>
+        <div class="map-box">
+            <img src="images/map.png" alt="map">
+        </div>
+            <div>
+                <h3>Weather Revelations</h3>
+                <table class="contact">
+    
+                    <tr>
+                        <td><img src="images/direction.png" alt="address-icon"></td>
+                        <td>All Seeing Eye Tower<br>Preston, ID 83264</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/email.png" alt="email-icon"></td>
+                        <td>info@weatherrevelations.com</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/phone.png" alt="phone-icon"></td>
+                        <td>800.111.1111</td>
+                    </tr>
+                </table>
+                <ul class="social">
+                    <li><a href="#"><img src="images/facebook.png" alt="facebook"></a></li>
+                    <li><a href="#"><img src="images/instagram.png" alt="instagram"></a></li>
+                    <li><a href="#"><img src="images/twitter.png" alt="twitter"></a></li>
+    
+                </ul>
+            </div>
+        
+    </div>
+
+</main>
+
+<!-- FOOTER HERE -->   
+<footer>
+    <div class="bottom">
+        <p>&copy; 2020 | C. Adam Smith | Panama | <a href="https://www.byui.edu/" target="blank"> BYUI Online
+                Learning</a></p>
+        <span id="lastUpdated" class="lastUpdated">Last Update:</span>
+    </div>
+
+</footer>
+<script src="js/forecast.js"></script>
+<script src="js/scripts.js"></script> -->
+<script src="js/lastModified.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="js/webfonts.js"></script>
+<!-- <script src="js/windchill.js"></script>
+<script src="lazyL.js"></script> --> -->
+
+</body>
+
+</html>
