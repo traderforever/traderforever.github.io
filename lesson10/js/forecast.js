@@ -1,5 +1,5 @@
-const apiURL = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=ee189add9d813bd1f5581c1b85f8e1d1&units=imperial";
-const heroURL = "http://api.openweathermap.org/data/2.5/weather?id=5604473&appid=ee189add9d813bd1f5581c1b85f8e1d1&units=imperial";
+const apiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=ee189add9d813bd1f5581c1b85f8e1d1&units=imperial";
+const heroURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=ee189add9d813bd1f5581c1b85f8e1d1&units=imperial";
 let chillFactor = "";
 
 
