@@ -1,0 +1,406 @@
+/*Header*/
+header {
+    background: #3e69a5;
+    display: flex;
+    padding: 5px 2px;
+    align-items: center;
+    justify-content: center;
+
+}
+picture img {
+        width: 275px;
+}
+.motto {
+    font-family: "Quicksand", "Karla", sans-serif;
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    width: 80%;
+    height: auto;
+}
+
+.header-headings {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    padding-right: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Architects Daughter";
+  }
+
+h1 {
+    margin: 0px 0px -6px 0px;
+}
+.header-headings div {
+    font-weight: bold;
+}
+
+
+
+/*Button*/
+
+button {
+    background-color: #94accc;
+    font-size: 30px;
+    width: 800px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-left: none;
+    border-right: none;
+}
+
+div.button-sec {
+    display: flex;
+    justify-content: center;
+}
+
+/*Navigation*/
+nav ul.hide {
+    display: none;
+}
+nav ul li h2{
+    font-size: 1.2em;
+
+}
+nav ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    background-color: #94accc;
+    text-align: center;
+    font-weight: bold;
+    font: 0.8em;
+    padding-left: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    flex: 1 1 100%;}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+li.active a h2 {
+    color: gold;
+}
+nav ul :hover {
+    color: white;
+    background-color: #3e69a5;
+}
+
+
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*Body*/
+body {
+        font-family: "Quicksand", "Karla", sans-serif;
+}
+p {
+    font-family: "Quicksand", "Karla", sans-serif;
+}
+main {
+    max-width: 400px;
+    margin: 0 auto;
+
+}
+
+h3 {
+
+    font: 1.4em;
+    text-align: left;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0px auto;
+}
+
+.main-content {
+    border: double black;
+    padding: 10px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+
+
+
+/*------------ FORM -------------*/
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #445ba9;
+    border-radius: .2rem 2%;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: #445ba9;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color:black;
+    font-size: 1rem;
+
+}
+
+form label.top input, form label.top select {
+    /*-webkit-appearance: none;*/
+
+    display: block;
+    font-size: 1rem;
+    border: solid 1px  #3e69a5;
+    border-radius: 4px;
+    padding: .75rem;
+    color: black;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.top1 select {
+    /*-webkit-appearance: none;*/
+
+    display: block;
+    font-size: 1rem;
+    border: solid 1px  #3e69a5;
+    border-radius: 4px;
+    padding: .75rem;
+    color: black;
+    width: 100%;
+    max-width: 51.6rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: black;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color:  #3e69a5;
+    color: white;
+    border-radius: 1rem;
+    padding: .75em 1.5rem;
+    margin: -12px 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+    font-weight: bold;
+}
+
+form label.top input:required {
+    border-bottom: red solid 3px;
+}
+
+form label.top input:required:valid {
+    border-bottom: green solid 3px;
+}
+
+textarea {
+    margin: 1px 0px 0px 0px;
+    width: 100%;
+    max-width: 98%;
+}
+
+/*Footer*/
+footer {
+    font-family: "Quicksand", "Karla", sans-serif;
+    background-color: #94accc;
+
+    text-align: center;
+    padding: 10px 5px;
+    font-weight: bold;
+
+}
+.lastUpdated {
+    color: gold;
+    font-size: 0.8em;
+  }
+/*LESSON 5*/
+
+
+.heroContainer {
+    margin: 10px auto;
+    position: relative;
+    max-width: 100%;
+    height: auto;
+  }
+  .hero-img {
+    display: block;
+    margin: 10px auto;
+    background-color: silver;
+    box-shadow: 0 0 0 2px black;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .weatherSum {
+    position: static;
+    background-color: white;
+    margin: 0px auto;
+}
+  .weatherSum h3 {
+    text-align: left;
+    overflow:visible;
+  }
+
+.fiveDayFlex img {
+    padding: 20px 35px;
+}
+.fiveDayFlex li {
+    width: 80%;
+    text-align-last: center;
+    margin: 10px auto;
+    border: 2px solid #94accc;
+}
+
+.fiveDayFlex p {
+    padding: 0px;
+}
+.fiveDayFlex, .contact, .social {
+    list-style: none;
+}
+
+.fiveDayFlex {
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+    justify-content: center;
+    padding-bottom: 1em;
+}
+
+
+
+
+main h2 {
+    padding: .75rem 0 .25rem 0;
+    text-align: center;
+}
+section div {
+    font-size: .8rem;
+    font-style: italic;
+    font-weight: bold;
+
+}
+main p {
+    text-align: left;
+    padding: 20px;
+}
+.social {
+    display: none;
+}
+
+aside {
+    display: none;
+    color: black;
+    background-image: radial-gradient(yellow, gold);
+    padding: 0.25em;
+    font-size: 1.25em;
+}
+.bannerSize {
+    margin: 0px auto;
+}
+
+
+/*LESSON 7*/
+
+.sectiongrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+
+
+
+
+
+  .come-in {
+    transform: translateY(150px);
+    animation: come-in 0.8s ease forwards;
+  }
+  .come-in:nth-child(odd) {
+    animation-duration: 0.6s; /* So they look staggered */
+  }
+  
+  @keyframes come-in {
+    to { transform: translateY(0); }
+  }
+
+/*.container {
+      
+        margin: 1rem auto;
+        display:grid;
+        grid-template-columns: repeat(1, minmax(256px, 1fr));        
+        max-width: 1048px;}*/
+
+/*img { width: 250px; height: auto; margin: .5rem;}*/
+figcaption {
+    font-size: smaller;
+    padding: 0px 0px 0px 8px;}
+/* hover effect */
+.norm:hover {box-shadow: 0 0 50px #333;}
+
+/*Week 9 */
+/*.mainheader {
+    box-shadow: 0 0 0 2px #3e69a5;
+}*/
+section div {
+    font-size: .8rem;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+main section {
+    box-shadow: 0 0 0 2px black;
+    background-color: #94accc;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+section h2 {
+    margin: 0 auto;
+    text-align: center;
+}
+section div {
+    margin: 0 auto;
+    text-align: center; 
+}
+section img {
+    max-width: 100%;
+}
+article {
+    text-align: center;
+    border: 2px solid black;
+    background-color: #94accc;
+}
+img.shakes {
+ max-width: 80%;
+}
+
+td img {
+    max-width: 50%;
+}
+div.map-box img {
+    max-width: 100%;
+}

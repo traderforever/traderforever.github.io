@@ -1,0 +1,129 @@
+@media only screen and (min-width: 900px) {
+
+    /*Header*/
+    .header-headings h1 {
+        font-size: 2.2em;
+    }
+
+    .header-headings div {
+        font-size: 1.2em;
+    }
+
+    /*Main*/
+    form.label.sbs {
+        padding: .4rem 0;
+    }
+    form label.top input {
+        max-width: 50rem;
+    }
+    form label.top1 select {
+        max-width: 51.6rem;
+    }
+    /*Nav*/
+    nav ul {
+        font-size: 1em;
+    }
+
+    li.active a h2 {
+        color: gold;
+    }
+
+    /*Body*/
+ 
+
+    h3 {
+        font-size: 1.3em;
+    }
+
+    .main-content {
+        font-size: 1.1em;
+    }
+
+    /*Footer*/
+    footer {
+        width: 100%;
+        font-size: 1.1em;
+    }
+
+/*HERO*/
+.weatherSum {
+    position: absolute;
+    Top: 250px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 0.5rem;
+    box-shadow: 0 0 20px;
+    width: 98.4%;
+
+  }
+
+  .fiveDayFlex li {
+    padding: 15px;
+}
+.founderImage {
+    float: right;
+    border: 4px solid #94accc;
+    max-width: 40%;
+    margin: 1.25rem;
+}
+
+article h4 {
+    margin: -20px 0px 0px 20px;
+}
+
+
+
+.sectiongrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+
+}
+
+
+
+/*--Week9--*/
+
+.wk9 {
+    display: grid;
+}
+.wk9card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+section {
+    display: block;
+    margin: 8px auto;
+ max-width: 100%;
+}
+
+section:nth-child(even) {
+    margin-left: 0;
+    margin-right: 0;
+}
+section:nth-child(1) img {
+    padding: 1.5rem 0 1.5rem 0;
+}
+section:nth-child(2) img {
+    padding: 1.5rem 0 1.5rem 0;}
+section:nth-child(3) img {
+    padding: 1.5rem 0 1.5rem 0;}
+
+main section {
+    margin: 0px
+    
+}
+
+section h2 {
+    margin: 0 auto;
+    text-align: center;
+}
+section div {
+    margin: 0 auto;
+    text-align: center; 
+}
+section img {
+    max-width:100%;
+}
+
+}
