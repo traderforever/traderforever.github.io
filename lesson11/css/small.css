@@ -90,6 +90,10 @@ nav ul li a {
 }
 li.active a h2 {
     color: gold;
+ 
+}
+nav ul li.active {
+    background-color: #3e69a5;
 }
 nav ul :hover {
     color: white;
@@ -223,7 +227,7 @@ textarea {
 /*Footer*/
 footer {
     font-family: "Quicksand", "Karla", sans-serif;
-    background-color: #94accc;
+    background-color: #3e69a5;
 
     text-align: center;
     padding: 10px 5px;
