@@ -1,4 +1,4 @@
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?lat=42.0380399&lon=-111.4048681&appid=ee189add9d813bd1f5581c1b85f8e1d1&units=imperial";
+const apiURL = "https://api.openweathermap.org/data/2.5/forecast?lat=42.0380399&lon=-111.4048681&appid=ee189add9d813bd1f5581c1b85f8e1d1&units=imperial";
 const heroURL = "https://api.openweathermap.org/data/2.5/weather?lat=42.0380399&lon=-111.4048681&appid=ee189add9d813bd1f5581c1b85f8e1d1&units=imperial";
 
 

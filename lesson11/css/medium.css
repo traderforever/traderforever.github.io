@@ -122,12 +122,12 @@ div.map-box {
 div.wkcard {
     width: auto;
 }
-/* section {
+.wk9card section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 20px auto;
     max-width: 70%;
-} */
+}
 
 div.wk9card-cards section{
     height: 20rem;

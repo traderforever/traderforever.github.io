@@ -90,6 +90,15 @@ article h4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
+
+}
+.wk9card section {
+    display: block;
+    max-width: 100%;
+
+}
+.wk9card h3 {
+    font-size: 1.6rem;
 }
 section {
     display: block;

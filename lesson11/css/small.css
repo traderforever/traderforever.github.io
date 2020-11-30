@@ -332,9 +332,20 @@ aside {
     justify-items: center;
 }
 
+.wk9card {
+    text-align-last: center;
+    place-items: center;
 
+}
 
+.wk9card p {
+    padding : 0px;
+}
 
+.wk9card h3 {
+    font-size: 1.1rem;
+
+}
 
 
   .come-in {
@@ -393,6 +404,7 @@ section div {
 section img {
     max-width: 100%;
 }
+
 article {
     text-align: center;
     border: 2px solid black;
