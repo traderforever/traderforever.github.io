@@ -7,7 +7,6 @@ const heroURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appi
 fetch(heroURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
 
     document.getElementById('curWeather').textContent = jsObject.weather[0].description;
     document.getElementById('tempCurrent').textContent = jsObject.main.temp;
@@ -17,8 +16,9 @@ fetch(heroURL)
     //°F - Humidity: <span id="humid"></span>% - Wind Speed <span id="wS"></span>mph - Wind Chill <span id="windCh"></span></h3>
     let tp = parseFloat(document.querySelector(".curWeather"));
     let ws = parseFloat(document.querySelector(".wS"));
+    let chillFactor;
     if ( tp <= 50.0 && ws > 3.0) {
-        let chillFactor = 35.74 + (0.6215 * tp) - (35.75 * Math.pow(ws,0.16)) + (0.4275 * tp * Math.pow(ws,0.16))
+        chillFactor = 35.74 + (0.6215 * tp) - (35.75 * Math.pow(ws,0.16)) + (0.4275 * tp * Math.pow(ws,0.16))
         document.querySelector("#windCh").innerHTML = Math.ceil(chillFactor)  + "°F";
       }
     

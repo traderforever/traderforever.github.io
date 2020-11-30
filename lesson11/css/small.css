@@ -111,7 +111,8 @@ nav ul :hover {
 
 /*Body*/
 body {
-        font-family: "Quicksand", "Karla", sans-serif;
+    font-family: "Quicksand", "Karla", sans-serif;
+    max-width: 1280px;
 }
 p {
     font-family: "Quicksand", "Karla", sans-serif;
