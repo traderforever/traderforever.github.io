@@ -421,3 +421,13 @@ td img {
 div.map-box img {
     max-width: 100%;
 }
+
+.eventCSS {
+    text-align-last: left;
+
+}
+.eventCSS p {
+padding: 5px;
+margin: 5px;
+
+}
