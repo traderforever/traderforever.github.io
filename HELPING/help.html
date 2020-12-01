@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="discription" content="Preston Idaho, home to Napoleon Dynamite, is a beautiful little town just 30 minutes from the Utah border. Come see all there is to do in our town.">
+
+    <title>More Than Potatoes | Preston Idaho</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400;1,700&family=Bree+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+  <body>
+    <aside id="notice">
+      Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city
+      park pavilion.
+    </aside>
+    <header>
+      <picture
+        ><img src="images/frenchFriesLogo.png" alt="More Than Potatoes logo"
+      /></picture>
+      <section class="headings">
+        <h1>More Than Potatoes</h1>
+        <div class="slogan">What Are You Missing?</div>
+      </section>
+    </header>
+    <nav>
+      <ul class="navigation">
+        <li><a href="#" class="ham">☰ Menu</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="preston.html">Preston</a></li>
+        <li><a href="sodasprings.html">Soda Springs</a></li>
+        <li><a href="fishhaven.html">Fish Haven</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h2 class="cityName">Preston, Idaho</h2>
+      <div class="heroDiv">
+        <picture>
+          <!-- <source srcset="images/wdd230_image_franklin-medium.jpg" media="(min-width: 500px) and (max-width: 799px)"> -->
+            <!-- <source srcset="images/wdd230_image_franklin-Large.jpg" media="(min-width: 800px)"> -->
+        <img src="images/downtownPreston.jpg" alt="responsive images" class="heroImg"/>
+      </picture>
+      <div class="weather-summary">
+        <table class="weatherSum">
+            <tr><td colspan="2"><h4>Weather Summary</h4></td></tr>
+            <tr>
+          <td class="weatherTable">Currently: </td><td><span id="temp"></span></td>
+        </tr>
+          <tr>
+          <td class="weatherTable">Wind Chill: </td><td><span id="windChill"></span></td>
+        </tr>
+        <tr>
+          <td class="weatherTable">Humidity: </td><td><span id="humidity"></span></td>
+        </tr>
+        <tr>
+          <td class="weatherTable">Wind Speed: </td><td><span id="speed"></span></td>
+        </tr>
+        </table>
+        </div>
+      </div>
+      <div class="forecast-box">
+        <h3>Five Day Forecast</h3>
+        <div class="forecast">
+            <ul id="five-day-flex" class="justify-center"></ul>
+        </div>
+      </div>
+
+      <article>
+        <img
+          class="articleImg"
+          src="images/log-near-water.jpg" alt="lake and log"
+        />
+        <h3>What to do in Preston Idaho This Summer</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+        corrupti ea natus beatae cum consequuntur non excepturi suscipit modi,
+        veniam nostrum ullam qui iste repellat nobis, tempora distinctio
+        necessitatibus. Non? Lorem, ipsum dolor sit amet consectetur adipisicing
+        elit. Aspernatur corrupti ea natus beatae cum consequuntur non excepturi
+        suscipit modi, veniam nostrum ullam qui iste repellat nobis, tempora
+        distinctio necessitatibus. Non? Lorem, ipsum dolor sit amet consectetur
+        adipisicing elit. Aspernatur corrupti ea natus beatae cum consequuntur
+        non excepturi suscipit modi, veniam nostrum ullam qui iste repellat
+        nobis, tempora distinctio necessitatibus. Non? Lorem, ipsum dolor sit
+        amet consectetur adipisicing elit. Aspernatur corrupti ea natus beatae
+        cum consequuntur non excepturi suscipit modi, veniam nostrum ullam qui
+        iste repellat nobis, tempora distinctio necessitatibus. Non?
+      </p>
+      </article>
+      <div class="contact">
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.77385347958!2d-111.91534461416101!3d42.09974162633483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1590277256912!5m2!1sen!2sus"
+            width="300"
+            height="300"
+            frameborder="0"
+            style="border: 0"
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0"
+          ></iframe>
+        </div>
+        <div class="contactInfo">
+          <h3>Contact Information</h3>
+          <p>
+            Address: 30 W Main St, Preston ID 84609<br />
+            Phone: 208-524-9876<br />Email: info@ppweather.com
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>
+        &copy; <span id="currYear"></span> | Diana Waite |
+        <a href="" target="_blank">Attributes</a> <br /><span
+          id="lastUpdated"
+          class="lastUpdated"
+        ></span>
+      </p>
+    </footer>
+    <script src="js/script.js"></script>
+    <!-- <script src="js/windchill.js"></script> -->
+    <script src="js/weatherInfo.js"></script>
+
+  </body>
+</html>
