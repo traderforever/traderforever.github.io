@@ -8,7 +8,7 @@
       "halfday": 25,
       "fullday": 35,
       "order": 1,
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+      "imageurl": "https://traderforever.github.io/final/images/HondaMetro.jpg"
     },
     {
       "vehicle": "Honda Dio Scooter",
@@ -18,7 +18,7 @@
       "halfday": 35,
       "fullday": 45,
       "order": 2,
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/brigham-young-82908-gallery.jpg"
+      "imageurl": "https://traderforever.github.io/final/images/HondaDio.jpg"
     },
     {
       "vehicle": "Honda PCX150 Scooter",
@@ -28,7 +28,7 @@
       "halfday": 45,
       "fullday": 55,
       "order": 3,
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/john-taylor-82909-gallery.jpg"
+      "imageurl": "https://traderforever.github.io/final/images/HondaPcx.jpg"
     },
     {
       "vehicle": "Honda Pioneer ATV",
@@ -38,7 +38,7 @@
       "halfday": 60,
       "fullday": 80,
       "order": 4,
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/wilford-woodruff-82910-gallery.jpg"
+      "imageurl": "https://traderforever.github.io/final/images/HondaPioneer.jpg"
     },
     {
       "vehicle": "Jeep Wrangler - 4 door with a/c",
@@ -48,7 +48,7 @@
       "halfday": 85,
       "fullday": 125,
       "order": 5,
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/lorenzo-snow-82911-gallery.jpg"
+      "imageurl": "https://traderforever.github.io/final/images/jeep1.jpg"
     },
     {
       "vehicle": "Jeep Wrangler - 2 door",
@@ -58,7 +58,7 @@
       "halfday": 70,
       "fullday": 90,
       "order": 6,
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/joseph-f-smith-82912-gallery.jpg"
+      "imageurl": "https://traderforever.github.io/final/images/jeep2.jpg"
     }
   ]
 }
