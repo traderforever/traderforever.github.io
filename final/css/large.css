@@ -29,6 +29,13 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    .callToAction {
+        width: 250px;
+        height: 67px;
+        bottom: 175px;
+        right: 200px;
+        font-size: 2.rem;
 
+    }
 
 }
