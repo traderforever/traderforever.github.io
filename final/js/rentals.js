@@ -49,10 +49,10 @@ fetch(requestURL)
 
 
             th.textContent = rentals[i].vehicle ;
-            th1.textContent = "Reservation: " + rentals[i].resHalfday;
-            th2.textContent = "Reservation: " + rentals[i].resFullday;
-            th3.textContent = "Walk-in: " +  rentals[i].halfday;
-            th4.textContent = "Walk-in: " +  rentals[i].fullday;
+            th1.textContent = "Reservation " + rentals[i].resHalfday;
+            th2.textContent = "Reservation " + rentals[i].resFullday;
+            th3.textContent = "Walk-in " +  rentals[i].halfday;
+            th4.textContent = "Walk-in " +  rentals[i].fullday;
             // thclass.className = 
 
 

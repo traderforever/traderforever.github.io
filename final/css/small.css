@@ -164,6 +164,7 @@ label {
     line-height: 26px;
     margin-bottom: 10px;
   }
+
   .speciallabel {
     display: inline;
     vertical-align: text-top;
@@ -194,4 +195,58 @@ textarea {
     height: 100%;
     margin: 10px auto;
     padding: 14px;
+}
+
+
+.rentalheading{
+    text-align: center;
+}
+.rentaltypes {
+    margin: 1rem auto;
+    width: 70%;
+    display:grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+.rentaltypes section h2 {
+    height: 50px;
+    font-size: 1.2rem;
+    margin: 10px 0px 25px 0px;
+}
+
+section {
+    background: #77A9D4;
+    text-align: center;
+    border: 1px solid #0060B5;
+    margin: 0 auto;
+    padding: 0.5em;
+    place-self: center;
+    width: 85%;
+
+}
+
+section > img {
+    max-width: 100%;
+    box-shadow: 0 0 10px 3px #0A0A0A;
+}
+
+.rentalpage {
+    max-width: 1080px;
+}
+
+.rentaltable {
+        border: 1px solid #0A0A0A;
+        max-width: 500px;
+        margin: 15px auto;
+}
+.rentaltable th {
+    width: 100px;
+    border: .25px solid #0A0A0A;
+    vertical-align: middle;
+}
+
+.rentaltable tr {
+
+    text-align: center;
+    border-collapse: collapse; 
 }
