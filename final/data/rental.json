@@ -1,0 +1,65 @@
+{
+"rentals": [
+    {
+      "vehicle": "Honda Metro Scooter",
+      "maxperson": 1,
+      "resHalfday": 20,
+      "resFullday": 30,
+      "halfday": 25,
+      "fullday": 35,
+      "order": 1,
+      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+    },
+    {
+      "vehicle": "Honda Dio Scooter",
+      "maxperson": 2,
+      "resHalfday": 30,
+      "resFullday": 40,
+      "halfday": 35,
+      "fullday": 45,
+      "order": 2,
+      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/brigham-young-82908-gallery.jpg"
+    },
+    {
+      "vehicle": "Honda PCX150 Scooter",
+      "maxperson": 2,
+      "resHalfday": 40,
+      "resFullday": 50,
+      "halfday": 45,
+      "fullday": 55,
+      "order": 3,
+      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/john-taylor-82909-gallery.jpg"
+    },
+    {
+      "vehicle": "Honda Pioneer ATV",
+      "maxperson": 4,
+      "resHalfday": 50,
+      "resFullday": 70,
+      "halfday": 60,
+      "fullday": 80,
+      "order": 4,
+      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/wilford-woodruff-82910-gallery.jpg"
+    },
+    {
+      "vehicle": "Jeep Wrangler - 4 door with a/c",
+      "maxperson": 5,
+      "resHalfday": 70,
+      "resFullday": 100,
+      "halfday": 85,
+      "fullday": 125,
+      "order": 5,
+      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/lorenzo-snow-82911-gallery.jpg"
+    },
+    {
+      "vehicle": "Jeep Wrangler - 2 door",
+      "maxperson": 4,
+      "resHalfday": 60,
+      "resFullday": 85,
+      "halfday": 70,
+      "fullday": 90,
+      "order": 6,
+      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/joseph-f-smith-82912-gallery.jpg"
+    }
+  ]
+}
+

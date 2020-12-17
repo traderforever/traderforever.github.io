@@ -1,0 +1,74 @@
+@media only screen and (min-width: 600px) {
+
+
+header h1 {
+    bottom: 55px;
+    font-size: 5.5rem;
+}
+
+nav ul {
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: unset;
+    padding-left: 0;
+}
+nav ul li {
+    border-bottom: none;
+}
+
+nav ul.hide {
+    display: none;
+}
+nav ul li h2{
+    font-size: 1.2rem;
+    margin: 10px;
+}
+nav div button {
+    display: none;
+}
+
+nav ul.hide {
+    display: flex;
+}
+
+
+
+
+
+
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+        align-self: center;
+}
+
+
+
+
+
+
+.mapbox {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1000px;
+    margin: auto;
+}
+
+
+.social {
+    align-self: center;
+}
+.social img{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+.contact td {
+    padding: 0 5px;
+}
+
+}
+

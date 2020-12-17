@@ -1,0 +1,29 @@
+body {
+    max-width: 900px;
+}
+.confirmationpage {
+    color: #eef2f3;
+    position: fixed;
+    margin: 2%;
+    padding: 2%;
+    WIDTH: 100%;
+    font-size: 1.5rem;
+    max-width: 100%;
+}
+
+h1 {
+    color: white;
+}
+
+a:link, a:visited {
+  background-color: #eef2f3;
+  color: #0A0A0A;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: white;
+}

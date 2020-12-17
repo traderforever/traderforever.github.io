@@ -1,0 +1,197 @@
+
+body {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+header {
+    background-color: #0060B5;
+    text-align: center;
+    color: #eef2f3;
+    max-width: 100%;
+    margin: 0 auto;
+}
+header img {
+    max-width: 100%;
+}
+header h1 {
+    position: relative;
+    bottom: 41px;
+    font-family: "East Sea Dokdo";
+    margin: 0 auto;
+    font-size: 4.5rem;
+    max-height: 25px;
+}
+
+button {
+    background-color: #77A9D4;
+    font-size: 1.5rem;
+    width: 100%;
+    border: none;
+    padding: 5px;
+}
+
+div.button-sec {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul.hide {
+    display: none;
+}
+nav ul li h2{
+    font-size: 1.0rem;
+    margin: 6px;
+}
+nav ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    background-color: #77A9D4;
+    text-align: center;
+    font-weight: bold;
+    font: 0.8em;
+    padding-left: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    flex: 1 1 100%;}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0A0A0A;
+}
+nav ul :hover {
+    background-color: #eef2f3;
+}
+li.active a h2 {
+    color: #eef2f3;
+    background-color: #0060B5;
+}
+
+nav ul li.active {
+    background-color: #0060B5;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.hero {
+    text-align: center;
+}
+.callToAction {
+    width: 250px;
+    height: 100px;
+    background-color: rgba(238, 242, 243, .5);
+    opacity: 0.5;
+    position: relative;
+    bottom: 315px;
+    float: right;
+    right: 100px;
+}
+
+
+
+
+
+
+
+
+.map {
+    width: 300px;
+    height: 300px;
+    border: none;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mapbox {
+    background-color: #77A9D4;
+    text-align: center;
+    max-width: 900px;
+}
+
+.topfooter {
+    background-color: #77A9D4;
+    max-width: 100%;
+    height: 42px;
+}
+.contact {
+    background-color: #0060B5;
+    padding: 1% 2% 1% 2%;
+    color: #eef2f3;
+}
+
+.bottom {
+    background-color: #0060B5;
+    padding: 1% 2% 1% 2%;
+    color: #eef2f3;
+    text-align: center;
+}
+.contact td {
+    padding: 0 20px;
+}
+.social {
+    text-align-last: justify;
+}
+
+
+fieldset {
+    max-width: 600px;
+    margin: auto;
+}
+
+label {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: right;
+    max-width: 400px;
+    line-height: 26px;
+    margin-bottom: 10px;
+  }
+  .speciallabel {
+    display: inline;
+    vertical-align: text-top;
+    justify-self: left;
+  }
+
+  
+textarea {
+    height: 50px;
+    flex: 0 0 200px;
+    margin-left: 10px;
+    max-width: 206px;
+}
+
+  input {
+    height: 20px;
+    flex: 0 0 200px;
+    margin-left: 10px;
+    max-width: 400px;
+  }
+.submitBtn {
+    font-size: 1.5rem;
+    display: flex;
+    place-content: center;
+    width: 100%;
+    max-width: 628px;
+    font-weight: bold;
+    height: 100%;
+    margin: 10px auto;
+    padding: 14px;
+}

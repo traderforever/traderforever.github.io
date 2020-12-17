@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initiak-scale=1">
+    <meta name="description" content="Rentals, Vacations, Parties, Beach Fun, Sunsets, Tours, and All-Inclusive">
+    <link rel="shortcut icon" href="images/favi.ico">
+    <link href="../CSS/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <!-- <link href="lazy.css" rel="stylesheet"> -->
+
+    <title>Reservations</title>
+</head>
+
+<body>
+    <header>
+        <picture>
+            <source media="(max-width: 400px)" srcset="images/logoSmall.jpg">
+            <img src="images/logo.png" alt="logo">
+        </picture>
+            <h1>Scoots</h1>
+    </header>
+
+    <nav class="clearfix">
+        <div class="button-sec">
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+        </div>
+        <ul id="primaryNav" class="hide">
+            <li><a href="https://traderforever.github.io/final/index.html">
+                    <h2>Home</h2>
+                </a></li>
+            <li><a href="https://traderforever.github.io/final/rentals.html">
+                    <h2>Rentals</h2>
+                </a></li>
+            <li class="active"><a href="https://traderforever.github.io/final/reservations.html">
+                    <h2>Reservations</h2>
+                </a></li>
+            <li><a href="https://traderforever.github.io/final/tours.html">
+                    <h2>Tours</h2>
+                </a></li>
+            <li><a href="https://traderforever.github.io/final/contact.html">
+                    <h2>Contact</h2>
+                </a></li>
+        </ul>
+    </nav>
+
+
+
+    <main>
+
+        <form method="get" action="https://traderforever.github.io/final/confirmation.html">
+        <fieldset>
+        <legend>Contact Information</legend>
+        <label>Full Name* <input type="text" name="fullname" minlength="5" pattern="[a-zA-Z]+[ ][a-zA-Z]+" required></label>
+        <label>Email* <input type="email" name="email" placeholder="youremail@domain.com" required></label>
+        <label>Phone* <input type="tel" name="phone" required></label>
+        <label>Place of Residence* <input type="text" name="residence" placeholder="State or Country" required></label>
+        <label>Cruise Line <input type="text" name="cruise" ></label>
+    </fieldset>
+
+
+
+    <fieldset>
+        <legend>Rental Information</legend>
+        <label>Rental Date<input type="date" name="rdate"></label>
+    <label  for="rtype" id="types">Rental Type
+        <input name="rtype" list="rentaltype" id="rtype">
+    
+    <datalist id="rentaltype">
+        <option value="Honda Metropolitan"></option>
+        <option value="Honda Dio"></option>
+        <option value="Honda PCX150"></option>
+        <option value="Honda Pioneer"></option>
+        <option value="Jeep Wrangler 4 door"></option>
+        <option value="Jeep Wrangler 2 door"></option>
+    </datalist>
+    </label>
+
+    <label># of rentals<input type="number" name="rnumber"></label>
+
+        <label>Special accommodations?<br>
+        <textarea id="addinfo" name="addinfo" rows="5" cols="35" placeholder="Need a tour guide or a special Drop-off Request? "></textarea></label>
+    <input class="speciallabel" type="checkbox" name="checkbox1" required> <span><a href="https://traderforever.github.io/final/agreement.html">I consent to terms of agreement.</a> </span>
+
+
+    
+</fieldset>
+<input type="submit" value="Submit" class="submitBtn">
+
+</form> 
+
+
+
+
+</main>
+
+<footer>
+    <div class="topfooter"></div>
+<div class="contact">
+    <table>
+        <tbody>
+            <tr>
+                <td>Contact Info</td>
+            </tr>
+            <tr>
+                <td>USA Number:</td>
+                <td>1-800-SCOOTER</td>
+            </tr>
+            <tr>
+                <td>Local Number:</td>
+                <td>+52-9982830070 </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>info@scoots.com</td>
+            </tr>
+    </table>
+
+    <div class="social">
+        <a href="https://www.facebook.com" target="blank"><img src="images/facebook.png"
+                alt="facebook logo"></a>
+        <a href="https://www.instagram.com" target="blank"><img src="images/instagram.png"
+                alt="instagram logo"></a>
+        <a href="https://www.twitter.com" target="blank"><img src="images/twiiter.png" alt="twitter logo"></a>
+    </div>
+
+</div>
+<div class="bottom">
+    <p>© 2020 | C. Adam Smith | Panama</p>
+</div>
+</footer>
+
+
+</body>
+
+</html>
