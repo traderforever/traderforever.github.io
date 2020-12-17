@@ -11,28 +11,18 @@ fetch(apiURL)
 
     let curr = jsObject.current;
     let daily = jsObject.daily;
-    let alerts = jsObject.alerts;
-    console.log(alerts);
-
     let currtemp = parseFloat(curr.temp);
     
     document.getElementById('currtemp').textContent = currtemp + "°F";
     document.getElementById('condition').textContent =  curr.weather[0].description;
     document.getElementById('humidity').textContent = curr.humidity + "%";
 
-//
-
-
-
-
-
-
     
     for (i = 0; i < 3; i++) {
         let li = document.createElement('li');
         let ul = document.createElement('ul');
         let day = document.createElement('li');
-        let iconLi = document.createElement('li');
+        let alt1 = document.createElement('li');
         let icon = document.createElement('img');
         let temp = document.createElement('li');        
         
@@ -44,21 +34,16 @@ fetch(apiURL)
   
         temp.textContent = daily[i].temp.day + "°F";
 
-        iconLi.append(icon);
+        alt1.append(icon);
   
         li.append(ul);
         ul.append(day)
-        ul.append(iconLi);
+        ul.append(alt1);
         ul.append(temp);
   
         document.getElementById('forecastThree').appendChild(li);
     }
 
-    if(alerts != null ) {
-        let event = document.getElementById('event');
-        let desc = document.getElementById('description');
-        event.textContent = "Weather Advisory: " + alerts[0].event;
-        description.textContent = alerts[0].description;
-        document.getElementById('alert').classList.toggle('hidden');
-    }
 });
+
+

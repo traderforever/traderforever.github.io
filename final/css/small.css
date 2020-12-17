@@ -132,7 +132,7 @@ div ul {
 
 
 
-p, td, h2, h3, li {
+p, td, h2, h3, h4, li {
     font-family: "Noto Sans";
 }
 
@@ -275,3 +275,73 @@ section > img {
     text-align: center;
     border-collapse: collapse; 
 }
+.hometemp h2 {
+    margin: 20px;
+}
+.weathersection {
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#forecastThree {
+    display: flex;
+}
+.threeday {
+    text-align: center;
+}
+
+.toursections {
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+    gap: 30px;
+}
+.toursections img{
+    max-width: 400px;
+}
+
+.slideshow-container {
+    max-width: 400px;
+    position: relative;
+    margin: auto;
+  }
+  
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  
+  
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
