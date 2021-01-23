@@ -15,30 +15,33 @@ body {
   text-align: center;
 }
 
-h1, h2, h3, h4, h5 {
-  font-family: Lora;
-  color: $accent-color;
-}
 
-h1 {
-    padding: 0px 34px;
-}
-
-h2 {
-    a {
-    color: $black-color;
-    }
-    a:visited {
-    color: $black-color;
-    }
-    a:hover {
-    color:$accent-color;
-    text-decoration: underline;
-    }
-    a:active {
-    color: $active-color;
-    }
-}
+@mixin h1-h2 {
+    font-family: Lora;
+    color: $accent-color;
+  }
+  
+  h1 {
+      @include h1-h2;
+      padding: 0px 34px;
+  }
+  
+  h2 {
+      @include h1-h2;
+      a {
+      color: $black-color;
+      }
+      a:visited {
+      color: $black-color;
+      }
+      a:hover {
+      color:$accent-color;
+      text-decoration: underline;
+      }
+      a:active {
+      color: $active-color;
+      }
+  }
 
 main {
   background-color: $background-color;
