@@ -6,9 +6,34 @@ body {
   text-align: center;
 }
 
-h1, h2, h3, h4, h5 {
+h1 {
   font-family: Lora;
+  padding: 0px 34px;
+}
+
+h2 {
+  font-family: Lora;
+}
+
+h2 a:visited {
+  color: black;
+}
+
+h2 a {
   color: #6495ED;
+}
+
+h2 a:hover {
+  color: #6495ED;
+  text-decoration: underline;
+}
+
+h2 a:active {
+  color: #DEB887;
+}
+
+h2 a {
+  color: black;
 }
 
 main {
@@ -35,6 +60,10 @@ header {
   text-align: right;
 }
 
+header a {
+  color: #FAEBD7;
+}
+
 nav {
   padding: 10px 34px;
 }
@@ -52,50 +81,25 @@ nav a:active {
   color: #DEB887;
 }
 
-h1 {
-  padding: 0px 34px;
-}
-
-header a {
-  color: #FAEBD7;
-}
-
 hr {
   border: 1px solid white;
-}
-
-h2 a {
-  color: black;
-}
-
-h2 a:visited {
-  color: black;
-}
-
-h2 a:hover {
-  color: #6495ED;
-  text-decoration: underline;
-}
-
-h2 a:active {
-  color: #deb887;
 }
 
 p a {
   color: #6495ED;
 }
 
-p a:visited {
-  color: #6495ED;
-}
-
 p a:hover {
-  text-decoration: underline;
   color: #6495ED;
+  text-decoration: underline;
 }
 
 p a:active {
-  color: #deb887;
+  color: #DEB887;
+}
+
+p a:visited {
+  color: #6495ED;
 }
 
 img {

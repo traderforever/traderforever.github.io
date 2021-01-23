@@ -15,10 +15,21 @@ body {
   text-align: center;
 }
 
-
+@mixin textformat {
+    a {
+        color: $accent-color;
+    }
+     a:hover {
+          color:$accent-color;
+          text-decoration: underline;
+    }
+    a:active {
+          color: $active-color;
+    }
+     
+}
 @mixin h1-h2 {
     font-family: Lora;
-    color: $accent-color;
   }
   
   h1 {
@@ -28,19 +39,11 @@ body {
   
   h2 {
       @include h1-h2;
-      a {
-      color: $black-color;
-      }
       a:visited {
       color: $black-color;
       }
-      a:hover {
-      color:$accent-color;
-      text-decoration: underline;
-      }
-      a:active {
-      color: $active-color;
-      }
+      @include textformat;
+      a { color: $black-color;}
   }
 
 main {
@@ -51,7 +54,6 @@ main {
 
 a:link {
   text-decoration: none;
-
 }
 
 article {
@@ -92,18 +94,9 @@ hr {
 }
 
 p {
-    a {
-    color: $accent-color;
-    }
+    @include textformat;
     a:visited {
     color: $accent-color;
-    }
-    a:hover {
-    text-decoration: underline;
-    color: $accent-color;
-    }
-    a:active {
-    color: $active-color;
     }
 }
 
