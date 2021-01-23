@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+$accent-color: #6495ED;
+$background-color: #FAEBD7;
+$active-color: #DEB887;
+$white-color: white;
+$black-color: black;
+
+
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: Lora;
+  color: $accent-color;
+}
+
+h1 {
+    padding: 0px 34px;
+}
+
+h2 {
+    a {
+    color: $black-color;
+    }
+    a:visited {
+    color: $black-color;
+    }
+    a:hover {
+    color:$accent-color;
+    text-decoration: underline;
+    }
+    a:active {
+    color: $active-color;
+    }
+}
+
+main {
+  background-color: $background-color;
+  margin-left: 220px;
+  padding: 0px 10px;
+}
+
+a:link {
+  text-decoration: none;
+
+}
+
+article {
+    padding: 8%;
+}
+
+header {
+    width: 220px;
+    height: 100%;
+    background-color: $accent-color;
+    position: fixed;
+    padding: 35px 0px;
+    line-height: 2rem;
+    text-align: right;
+
+    a   {
+        color:$background-color;
+    }
+
+}
+
+nav {
+    padding: 10px 34px;
+    ul {
+        list-style-type: none;
+        padding: 0px;
+    }
+    a:visited {
+        color: $background-color;
+      }
+    a:active {
+        color: $active-color;
+    }
+}
+
+hr {
+    border: 1px solid $white-color;
+}
+
+p {
+    a {
+    color: $accent-color;
+    }
+    a:visited {
+    color: $accent-color;
+    }
+    a:hover {
+    text-decoration: underline;
+    color: $accent-color;
+    }
+    a:active {
+    color: $active-color;
+    }
+}
+
+
+img {
+    width: 250px;
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        max-width:500px;
+    }
+
+    header {
+        width: 100%;
+        height: 230px;
+        position: relative; 
+        padding: 15px 0px;
+        line-height: 1.75rem;   
+    }
+
+    main {
+        background-color: $background-color;
+        margin-left: 0px;
+      }
+
+}
